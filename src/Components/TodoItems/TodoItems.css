@@ -1,0 +1,78 @@
+.filter-btn {
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  margin: 2rem 0;
+  color: var(--Primary);
+}
+
+.mg {
+  margin-right: 1.1rem;
+  margin-left: 1.1rem;
+}
+
+.card {
+  background: var(--Primary);
+  background: radial-gradient(circle,
+      hsla(71, 84%, 75%, 0.9) 0%,
+      hsla(0, 0%, 90%, 0.9) 100%);
+  color: var(--Primary);
+  margin: 2rem 1rem 1rem 0;
+  height: 8rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-left: 2%;
+  display: inline-block;
+  position: relative;
+}
+
+.todo-icons {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.input-update {
+  border: none;
+  color: var(--Primary);
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+
+}
+
+.input-update::placeholder {
+  font-size: 0.8rem;
+  color: rgb(150, 109, 109);
+}
+
+.button-update {
+  border: none;
+  margin-left: 8px;
+  padding: 0.3rem;
+  background-color: var(--Primary);
+  color: var(--Secondary);
+  border-radius: 8px;
+
+}
+
+.completed {
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+  background-color: var(--Primary);
+  border: 2px solid var(--Secondary);
+  color: var(--Secondary);
+  font-size: 0.8rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}
+
+
+@media (max-width: 640px) {
+  .card {
+    margin: 2% 15%;
+  }
+}

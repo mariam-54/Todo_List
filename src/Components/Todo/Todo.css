@@ -1,0 +1,44 @@
+.todo-heading {
+    color: var(--Secondary);
+    text-align: center;
+    margin: 2rem 0;
+    text-shadow: 0 0 7px #899e28, 4px -2px 6px #36410a;
+}
+
+.todo-input {
+    background-color: var(--Secondary);
+    min-width: 15rem;
+    width: 40vw;
+    border: none;
+    max-height: 2.7rem;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    color: var(--Primary);
+}
+
+.todo-input:focus {
+    outline: none;
+    border: 2px solid var(--Primary);
+}
+
+button:focus {
+    outline: none;
+}
+
+.todo-add-btn {
+    border-radius: 50%;
+    border: none;
+    margin-left: 1rem;
+    background-color: var(--Primary);
+    color: var(--Secondary);
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid var(--Secondary);
+    font-size: 1.3rem;
+    box-shadow: 4px 6px 12px var(--Primary);
+    cursor: pointer;
+}
+
+.todo-add-btn:focus {
+    outline: none;
+}
